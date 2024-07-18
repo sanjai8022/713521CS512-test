@@ -1,0 +1,148 @@
+
+header {
+    background-color:#f0e6e6;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    height: 30px;
+    justify-content:left;
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items:right;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fffcfc;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  header nav a:hover {
+    color: #fdfcfc;
+  }
+  
+  /* Slide styles */
+  .slides {
+    position: relative;
+  }
+  
+  .slide {
+    display: none;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .slides input[type="radio"]:checked +.slide {
+    display: block;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color:#fffafa;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #000000;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    width: 100vw; 
+}
+
+.slide {
+    display: none;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #20c3dc;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+}
+
+.slide h1 {
+    color: #333;
+    font-size: 48px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.slide p {
+    color: #666;
+    font-size: 24px; 
+    margin-bottom: 40px;
+}
+
+a {
+    background-color:rgb(89, 89, 89);
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px; 
+}
+
+a:hover {
+    background-color: #212221;
+}
+
+#slide1 {
+    background-image: linear-gradient(to bottom, #16bdd7, #f1eff0);
+    display: block;
+}
+
+#slide2 {
+    background-image: linear-gradient(to bottom, #16bdd7, #ffffff);
+}
+
+#slide3 {
+    background-image: linear-gradient(to bottom, #16bdd7, #ffffff);
+}
+
+#slide4 {
+    background-image: linear-gradient(to bottom,#16bdd7, #ffffff);
+}
+
+#slide5 {
+    background-image: linear-gradient(to bottom,#16bdd7, #ffffff);
+}
+
+
+:target {
+    display: block;
+}
